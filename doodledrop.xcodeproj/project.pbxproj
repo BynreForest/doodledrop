@@ -21,7 +21,6 @@
 		D7CD072B159244430048F44D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CD072A159244430048F44D /* Icon-Small-50.png */; };
 		D7CD072D159244430048F44D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CD072C159244430048F44D /* Icon-Small.png */; };
 		D7CD072F159244430048F44D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CD072E159244430048F44D /* Icon-Small@2x.png */; };
-		D7CD0731159244430048F44D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CD0730159244430048F44D /* Icon.png */; };
 		D7CD0733159244430048F44D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CD0732159244430048F44D /* Icon@2x.png */; };
 		D7CD0736159244430048F44D /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D7CD0735159244430048F44D /* iTunesArtwork */; };
 		D7CD073B159244430048F44D /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CD073A159244430048F44D /* CCAction.m */; };
@@ -122,6 +121,9 @@
 		D7CD0876159244460048F44D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CD0875159244460048F44D /* AppDelegate.m */; };
 		D7CD0879159244460048F44D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CD0878159244460048F44D /* RootViewController.m */; };
 		D7CD0885159248DB0048F44D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CD0884159248DB0048F44D /* GameScene.m */; };
+		D7CD088B159253F30048F44D /* alien.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CD088A159253F30048F44D /* alien.png */; };
+		D7CD088D159254020048F44D /* spider.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CD088C159254020048F44D /* spider.png */; };
+		D7CD088F159254190048F44D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CD088E159254190048F44D /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,7 +142,6 @@
 		D7CD072A159244430048F44D /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
 		D7CD072C159244430048F44D /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
 		D7CD072E159244430048F44D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		D7CD0730159244430048F44D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		D7CD0732159244430048F44D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		D7CD0734159244430048F44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		D7CD0735159244430048F44D /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
@@ -360,6 +361,9 @@
 		D7CD087D159244460048F44D /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		D7CD0883159248DB0048F44D /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		D7CD0884159248DB0048F44D /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D7CD088A159253F30048F44D /* alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alien.png; sourceTree = "<group>"; };
+		D7CD088C159254020048F44D /* spider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spider.png; sourceTree = "<group>"; };
+		D7CD088E159254190048F44D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -433,13 +437,15 @@
 		D7CD0723159244430048F44D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D7CD088E159254190048F44D /* Icon.png */,
+				D7CD088C159254020048F44D /* spider.png */,
+				D7CD088A159253F30048F44D /* alien.png */,
 				D7CD0724159244430048F44D /* Default.png */,
 				D7CD0726159244430048F44D /* fps_images.png */,
 				D7CD0728159244430048F44D /* Icon-72.png */,
 				D7CD072A159244430048F44D /* Icon-Small-50.png */,
 				D7CD072C159244430048F44D /* Icon-Small.png */,
 				D7CD072E159244430048F44D /* Icon-Small@2x.png */,
-				D7CD0730159244430048F44D /* Icon.png */,
 				D7CD0732159244430048F44D /* Icon@2x.png */,
 				D7CD0734159244430048F44D /* Info.plist */,
 				D7CD0735159244430048F44D /* iTunesArtwork */,
@@ -814,9 +820,11 @@
 				D7CD072B159244430048F44D /* Icon-Small-50.png in Resources */,
 				D7CD072D159244430048F44D /* Icon-Small.png in Resources */,
 				D7CD072F159244430048F44D /* Icon-Small@2x.png in Resources */,
-				D7CD0731159244430048F44D /* Icon.png in Resources */,
 				D7CD0733159244430048F44D /* Icon@2x.png in Resources */,
 				D7CD0736159244430048F44D /* iTunesArtwork in Resources */,
+				D7CD088B159253F30048F44D /* alien.png in Resources */,
+				D7CD088D159254020048F44D /* spider.png in Resources */,
+				D7CD088F159254190048F44D /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
